@@ -1,0 +1,1988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Case\BarTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\CaseService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\DatasetTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\GaugeTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\LineTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\MapTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\PieTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\RadarTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\ScatterTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Case\SunburstTypeCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChartEventDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChartManagerDelegateImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IIChartDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IIChartDemoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Case\BarTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\CaseService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\DatasetTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\GaugeTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="case\ICase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\LineTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\MapTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\PieTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\RadarTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\ScatterTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Case\SunburstTypeCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChartEventDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChartManagerDelegateImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IIChartDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IIChartDemoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IBrushAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IBrushEndAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IBrushTakeGlobalCursorAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ICommonAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ICommonGeoAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IDataZoomAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IDataZoomTakeGlobalCursorAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IDownplayAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IGeoDownplayAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IGeoHighlightAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IGeoSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IGeoToggleSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IGeoUnSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IHideTipAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IHighlightAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ILegendAllSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ILegendInverseSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ILegendScrollAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ILegendSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ILegendToggleSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ILegendUnSelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ISelectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ISelectDataRangeAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IShowTipAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ITimelineChangeAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\ITimelinePlayChangeAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IToggleSelectedAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IToolboxRestoreAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\actionargs\IUnselectAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\callback\IEventCallbackDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\callback\IOptionsCallbackDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\common\ErrorCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\common\ICallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\common\IEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\common\IFixedQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\common\IQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IAxisAreaSelectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IBurshEndEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IBurshEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IBurshSelectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ICommonEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ICommonGeoEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IDataRangeSelectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IDataViewChangedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IDataZoomEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IDownplayEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGeoDownplayEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGeoHighlightEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGeoRoamEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGeoSelectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGeoUnselectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGlobalCursorTakenEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IGraphRoamEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IHighlightEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ILegendInverseSelectEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ILegendScrollEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ILegendSelectAllEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ILegendSelectChangedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ILegendSelectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ILegendUnselectedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IMagicTypeChangedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IMouseEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\IRestoreEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ISelectChangedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ITimeLineChangedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ITimeLinePlayChangedEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\events\ITreeRoamEventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IActionFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IChart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IChartEventDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IChartManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IChartManagerDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IChartSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IGlobalUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IIIChart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IManagerSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IBaseArrayElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\ICategoryData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\ICompactTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\ICompactTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\ILabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\ILineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IRich.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IShadowStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\ITextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\common\IUniversalTransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisPointerLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisMinorSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisMinorTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleSplitLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisNameTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IMinorSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\IMinorTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\ISplitArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\ISplitAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\axis\ISplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\dataset\IDataset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetDimensionsData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetTransformConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetTransformConfigItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomDataBackground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomInside.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderBrushStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderHandleStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderMoveHandleStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderSelectedDataBackground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoBlurEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoEmphasisEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoLabelEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoProjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoScaleLimit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Options\GeneralOptions\Geo\IGeoSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoSelectEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointerCrossStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointerLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\IGeneralOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendPageIcons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendPageTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendSelectorLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointerCrossStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointerLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarIndicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisMinorSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisMinorTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisNameTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBackgroundStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBlurLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDimensionsData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeEmphasisLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineBlurLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineEmphasisLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeSelectItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeSelectLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeUniversalTransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\boxplot\IBoxplotType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\candlestick\ICandLestickType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\customtype\ICustomType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\effectscatter\IEffectScatterType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\funnel\IFunnelType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAnchor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeDetail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeItemStyleEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineDataLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPointBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPointEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypePointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeSplitLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeTitle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\graph\IGraphType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\heatmap\IHeatmapType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\ISeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\lines\ILinesType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurEndLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDimensionsData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisEndLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEndLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectEndLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeUniversalTransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeEmphasisEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelLineEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkAreaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeProjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeScaleLimit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeSelectEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\parallel\IParallelType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pictorialbar\IPictorialBarType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlurLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataBlurLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataEmphasisLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataSelectItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataSelectLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDimensionsData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasisLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmptyCircleStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelectItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelectLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelectLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeUniversalTransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectAreaStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeUniversalTransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sankey\ISanKeyType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlurLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDimensionsData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasisLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineBlurLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineEmphasisLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointBlurItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointBlurLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointDataItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointDataLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointEmphasisItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelectItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelectLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelectLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeUniversalTransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\subcomponents\ILineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeDataEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeItemStyleEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabelLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabelLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabelLineEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLevelEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeTooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\themeriver\IThemeRiverType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\treemap\ITreemapType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\series\tree\ITreeType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\stateanimation\IStateAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineCheckpointStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineControlStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineEmphasisLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineItemStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineProgressLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineProgressLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\timeline\ITooltipPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\title\ITitle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\title\ITitleSubTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\title\ITitleTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxEmphasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureBrushIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureBrushTitle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoomBrushStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoomIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoomTitle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureRestore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureSaveAsImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxIconStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointerCrossStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointerLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointerLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapContinuous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapHandleStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapIndicatorStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapPieceComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapPiecewise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapTextStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\options\IChartOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IIChartDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\echartcode\echarts.html" />
+    <None Include="res\IIChartDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

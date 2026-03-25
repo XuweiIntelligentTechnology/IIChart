@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugBasic|Win32">
+      <Configuration>DebugBasic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugBasic|x64">
+      <Configuration>DebugBasic</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStandard|Win32">
+      <Configuration>DebugStandard</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStandard|x64">
+      <Configuration>DebugStandard</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseBasic|Win32">
+      <Configuration>ReleaseBasic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseBasic|x64">
+      <Configuration>ReleaseBasic</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStandard|Win32">
+      <Configuration>ReleaseStandard</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStandard|x64">
+      <Configuration>ReleaseStandard</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9EF88904-4174-4ED9-8797-E6E73F76C4B8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStandard|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugBasic|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStandard|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugBasic|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStandard|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugBasic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStandard|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugBasic|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStandard|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugBasic|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\Case;$(ProjectDir)\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStandard|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\Case;$(ProjectDir)\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugBasic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\Case;$(ProjectDir)\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\Case;$(ProjectDir)\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\Case;$(ProjectDir)\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\Case;$(ProjectDir)\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Case\BarTypeCase.cpp" />
+    <ClCompile Include="Case\CaseService.cpp" />
+    <ClCompile Include="Case\DatasetTypeCase.cpp" />
+    <ClCompile Include="Case\GaugeTypeCase.cpp" />
+    <ClCompile Include="Case\LineTypeCase.cpp" />
+    <ClCompile Include="Case\MapTypeCase.cpp" />
+    <ClCompile Include="Case\PieTypeCase.cpp" />
+    <ClCompile Include="Case\RadarTypeCase.cpp" />
+    <ClCompile Include="Case\ScatterTypeCase.cpp" />
+    <ClCompile Include="Case\SunburstTypeCase.cpp" />
+    <ClCompile Include="CChartEventDelegate.cpp" />
+    <ClCompile Include="CChartManagerDelegateImp.cpp" />
+    <ClCompile Include="IIChartDemo.cpp" />
+    <ClCompile Include="IIChartDemoDlg.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStandard|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseBasic|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStandard|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugBasic|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Case\BarTypeCase.h" />
+    <ClInclude Include="Case\CaseService.h" />
+    <ClInclude Include="Case\DatasetTypeCase.h" />
+    <ClInclude Include="Case\GaugeTypeCase.h" />
+    <ClInclude Include="case\ICase.h" />
+    <ClInclude Include="Case\LineTypeCase.h" />
+    <ClInclude Include="Case\MapTypeCase.h" />
+    <ClInclude Include="Case\PieTypeCase.h" />
+    <ClInclude Include="Case\RadarTypeCase.h" />
+    <ClInclude Include="Case\ScatterTypeCase.h" />
+    <ClInclude Include="Case\SunburstTypeCase.h" />
+    <ClInclude Include="CChartEventDelegate.h" />
+    <ClInclude Include="CChartManagerDelegateImp.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="IIChartDemo.h" />
+    <ClInclude Include="IIChartDemoDlg.h" />
+    <ClInclude Include="interface\actionargs\IAction.h" />
+    <ClInclude Include="interface\actionargs\IBrushAction.h" />
+    <ClInclude Include="interface\actionargs\IBrushEndAction.h" />
+    <ClInclude Include="interface\actionargs\IBrushTakeGlobalCursorAction.h" />
+    <ClInclude Include="interface\actionargs\ICommonAction.h" />
+    <ClInclude Include="interface\actionargs\ICommonGeoAction.h" />
+    <ClInclude Include="interface\actionargs\IDataZoomAction.h" />
+    <ClInclude Include="interface\actionargs\IDataZoomTakeGlobalCursorAction.h" />
+    <ClInclude Include="interface\actionargs\IDownplayAction.h" />
+    <ClInclude Include="interface\actionargs\IGeoDownplayAction.h" />
+    <ClInclude Include="interface\actionargs\IGeoHighlightAction.h" />
+    <ClInclude Include="interface\actionargs\IGeoSelectAction.h" />
+    <ClInclude Include="interface\actionargs\IGeoToggleSelectAction.h" />
+    <ClInclude Include="interface\actionargs\IGeoUnSelectAction.h" />
+    <ClInclude Include="interface\actionargs\IHideTipAction.h" />
+    <ClInclude Include="interface\actionargs\IHighlightAction.h" />
+    <ClInclude Include="interface\actionargs\ILegendAllSelectAction.h" />
+    <ClInclude Include="interface\actionargs\ILegendInverseSelectAction.h" />
+    <ClInclude Include="interface\actionargs\ILegendScrollAction.h" />
+    <ClInclude Include="interface\actionargs\ILegendSelectAction.h" />
+    <ClInclude Include="interface\actionargs\ILegendToggleSelectAction.h" />
+    <ClInclude Include="interface\actionargs\ILegendUnSelectAction.h" />
+    <ClInclude Include="interface\actionargs\ISelectAction.h" />
+    <ClInclude Include="interface\actionargs\ISelectDataRangeAction.h" />
+    <ClInclude Include="interface\actionargs\IShowTipAction.h" />
+    <ClInclude Include="interface\actionargs\ITimelineChangeAction.h" />
+    <ClInclude Include="interface\actionargs\ITimelinePlayChangeAction.h" />
+    <ClInclude Include="interface\actionargs\IToggleSelectedAction.h" />
+    <ClInclude Include="interface\actionargs\IToolboxRestoreAction.h" />
+    <ClInclude Include="interface\actionargs\IUnselectAction.h" />
+    <ClInclude Include="interface\callback\IEventCallbackDef.h" />
+    <ClInclude Include="interface\callback\IOptionsCallbackDef.h" />
+    <ClInclude Include="interface\common\ErrorCode.h" />
+    <ClInclude Include="interface\common\ICallback.h" />
+    <ClInclude Include="interface\common\IEnum.h" />
+    <ClInclude Include="interface\common\IFixedQueue.h" />
+    <ClInclude Include="interface\common\IQueue.h" />
+    <ClInclude Include="interface\events\IAxisAreaSelectedEventArgs.h" />
+    <ClInclude Include="interface\events\IBurshEndEventArgs.h" />
+    <ClInclude Include="interface\events\IBurshEventArgs.h" />
+    <ClInclude Include="interface\events\IBurshSelectedEventArgs.h" />
+    <ClInclude Include="interface\events\ICommonEventArgs.h" />
+    <ClInclude Include="interface\events\ICommonGeoEventArgs.h" />
+    <ClInclude Include="interface\events\IDataRangeSelectedEventArgs.h" />
+    <ClInclude Include="interface\events\IDataViewChangedEventArgs.h" />
+    <ClInclude Include="interface\events\IDataZoomEventArgs.h" />
+    <ClInclude Include="interface\events\IDownplayEventArgs.h" />
+    <ClInclude Include="interface\events\IEvents.h" />
+    <ClInclude Include="interface\events\IGeoDownplayEventArgs.h" />
+    <ClInclude Include="interface\events\IGeoHighlightEventArgs.h" />
+    <ClInclude Include="interface\events\IGeoRoamEventArgs.h" />
+    <ClInclude Include="interface\events\IGeoSelectedEventArgs.h" />
+    <ClInclude Include="interface\events\IGeoUnselectedEventArgs.h" />
+    <ClInclude Include="interface\events\IGlobalCursorTakenEventArgs.h" />
+    <ClInclude Include="interface\events\IGraphRoamEventArgs.h" />
+    <ClInclude Include="interface\events\IHighlightEventArgs.h" />
+    <ClInclude Include="interface\events\ILegendInverseSelectEventArgs.h" />
+    <ClInclude Include="interface\events\ILegendScrollEventArgs.h" />
+    <ClInclude Include="interface\events\ILegendSelectAllEventArgs.h" />
+    <ClInclude Include="interface\events\ILegendSelectChangedEventArgs.h" />
+    <ClInclude Include="interface\events\ILegendSelectedEventArgs.h" />
+    <ClInclude Include="interface\events\ILegendUnselectedEventArgs.h" />
+    <ClInclude Include="interface\events\IMagicTypeChangedEventArgs.h" />
+    <ClInclude Include="interface\events\IMouseEventArgs.h" />
+    <ClInclude Include="interface\events\IRestoreEventArgs.h" />
+    <ClInclude Include="interface\events\ISelectChangedEventArgs.h" />
+    <ClInclude Include="interface\events\ITimeLineChangedEventArgs.h" />
+    <ClInclude Include="interface\events\ITimeLinePlayChangedEventArgs.h" />
+    <ClInclude Include="interface\events\ITreeRoamEventArgs.h" />
+    <ClInclude Include="interface\IActionFactory.h" />
+    <ClInclude Include="interface\IChart.h" />
+    <ClInclude Include="interface\IChartEventDelegate.h" />
+    <ClInclude Include="interface\IChartManager.h" />
+    <ClInclude Include="interface\IChartManagerDelegate.h" />
+    <ClInclude Include="interface\IChartSetting.h" />
+    <ClInclude Include="interface\IGlobalUtility.h" />
+    <ClInclude Include="interface\IIIChart.h" />
+    <ClInclude Include="interface\IManagerSetting.h" />
+    <ClInclude Include="interface\options\common\IBaseArrayElement.h" />
+    <ClInclude Include="interface\options\common\ICategoryData.h" />
+    <ClInclude Include="interface\options\common\IColor.h" />
+    <ClInclude Include="interface\options\common\ICompactTooltip.h" />
+    <ClInclude Include="interface\options\common\ICompactTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\common\IEncode.h" />
+    <ClInclude Include="interface\options\common\IHandle.h" />
+    <ClInclude Include="interface\options\common\ILabel.h" />
+    <ClInclude Include="interface\options\common\ILineStyle.h" />
+    <ClInclude Include="interface\options\common\IRich.h" />
+    <ClInclude Include="interface\options\common\IShadowStyle.h" />
+    <ClInclude Include="interface\options\common\ITextStyle.h" />
+    <ClInclude Include="interface\options\common\IUniversalTransition.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxis.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisLine.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisPointer.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisPointerLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisAxisTick.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisData.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisMinorSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisMinorTick.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitArea.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleAxisSplitLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\angleaxis\IAngleSplitLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxis.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisLine.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisNameTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisPointer.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IAxisTick.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IMinorSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\IMinorTick.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\ISplitArea.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\ISplitAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\axis\ISplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\dataset\IDataset.h" />
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetDimensionsData.h" />
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetSource.h" />
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetTransformConfig.h" />
+    <ClInclude Include="interface\options\generaloptions\dataset\IDatasetTransformConfigItem.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoom.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomDataBackground.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomInside.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSlider.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderBrushStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderHandleStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderMoveHandleStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderSelectedDataBackground.h" />
+    <ClInclude Include="interface\options\generaloptions\datazoom\IDataZoomSliderTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeo.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoBlurEx.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoEmphasisEx.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoLabelEx.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoProjection.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoRegion.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoScaleLimit.h" />
+    <ClInclude Include="Interface\Options\GeneralOptions\Geo\IGeoSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoSelectEx.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\geo\IGeoTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGrid.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointer.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointerCrossStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipAxisPointerLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\grid\IGridTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\IGeneralOptions.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegend.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendData.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendPageIcons.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendPageTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendSelectorLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\legend\ILegendTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolar.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointer.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointerCrossStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipAxisPointerLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\polar\IPolarTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadar.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisLine.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisName.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarAxisTick.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarIndicator.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitArea.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\radar\IRadarSplitLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxis.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisLine.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisPointer.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisAxisTick.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisMinorSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisMinorTick.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisNameTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitArea.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\radiusaxis\IRadiusAxisSplitLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBackgroundStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeBlurLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataArray.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDataSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeDimensionsData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeEmphasisLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkArea.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkAreaLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineBlurLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineEmphasisLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPoint.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeMarkPointItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeSelectItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeSelectLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\bar\IBarTypeUniversalTransition.h" />
+    <ClInclude Include="interface\options\generaloptions\series\boxplot\IBoxplotType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\candlestick\ICandLestickType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\customtype\ICustomType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\effectscatter\IEffectScatterType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\funnel\IFunnelType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAnchor.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeAxisTick.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeDetail.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeItemStyleEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkArea.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkAreaLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineDataLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkLineEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPoint.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPointBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPointData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeMarkPointEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypePointer.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeProgress.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeSplitLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeTitle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\gauge\IGaugeTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\graph\IGraphType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\heatmap\IHeatmapType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\ISeries.h" />
+    <ClInclude Include="interface\options\generaloptions\series\lines\ILinesType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurEndLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeBlurLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDataTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeDimensionsData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisEndLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEmphasisLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeEndLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkArea.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkAreaLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPoint.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeMarkPointItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectEndLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeSelectLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\line\ILineTypeUniversalTransition.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeEmphasisEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeLabelLineEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkArea.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkAreaData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkPoint.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeMarkPointData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeProjection.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeScaleLimit.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\map\IMapTypeSelectEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\parallel\IParallelType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pictorialbar\IPictorialBarType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeBlurLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataArray.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataBlurLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataEmphasisLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataSelectItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataSelectLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDataTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeDimensionsData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmphasisLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeEmptyCircleStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkArea.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkAreaLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineDataLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPoint.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeMarkPointLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelectItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelectLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeSelectLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\pie\IPieTypeUniversalTransition.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeBlurLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataArray.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDataTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeEmphasisLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectAreaStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeSelectLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\radar\IRadarTypeUniversalTransition.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sankey\ISanKeyType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeBlurLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataArray.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDataTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeDimensionsData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeEmphasisLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkArea.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkAreaLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineBlurLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineDataLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineEmphasisLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPoint.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointBlurItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointBlurLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointDataItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointDataLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointEmphasisItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeMarkPointLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelectItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelectLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeSelectLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\scatter\IScatterTypeUniversalTransition.h" />
+    <ClInclude Include="interface\options\generaloptions\series\subcomponents\ILineData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeBlur.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeData.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeDataEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeDecal.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeItemStyleEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabelLayout.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabelLine.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLabelLineEx.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLevel.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeLevelEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeSelect.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeTooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\series\sunburst\ISunburstTypeTooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\series\themeriver\IThemeRiverType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\treemap\ITreemapType.h" />
+    <ClInclude Include="interface\options\generaloptions\series\tree\ITreeType.h" />
+    <ClInclude Include="interface\options\generaloptions\stateanimation\IStateAnimation.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLine.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineCheckpointStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineControlStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineData.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineEmphasisLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineItemStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineProgress.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineProgressLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITimeLineProgressLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\timeline\ITooltipPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\title\ITitle.h" />
+    <ClInclude Include="interface\options\generaloptions\title\ITitleSubTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\title\ITitleTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolbox.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxEmphasis.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeature.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureBrush.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureBrushIcon.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureBrushTitle.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataView.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoom.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoomBrushStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoomIcon.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureDataZoomTitle.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureRestore.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxFeatureSaveAsImage.h" />
+    <ClInclude Include="interface\options\generaloptions\toolbox\IToolboxIconStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltip.h" />
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointer.h" />
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointerCrossStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointerLabel.h" />
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipAxisPointerLineStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\tooltip\ITooltipTextStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMap.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapContinuous.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapController.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapHandleStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapIndicatorStyle.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapPieceComponent.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapPiecewise.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapRange.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapTarget.h" />
+    <ClInclude Include="interface\options\generaloptions\visualmap\IVisualMapTextStyle.h" />
+    <ClInclude Include="interface\options\IChartOption.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IIChartDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\echartcode\echarts.html" />
+    <None Include="res\IIChartDemo.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

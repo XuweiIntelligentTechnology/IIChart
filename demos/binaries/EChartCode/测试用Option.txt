@@ -1,0 +1,29 @@
+myChart.setOption({
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',    // 设置图表类型为饼图
+            radius: '55%',  // 饼图的半径，外半径为可视区尺寸（容器高宽中较小一项）的 55% 长度。
+            data:[          // 数据数组，name 为数据项名称，value 为数据项值
+                {value:235, name:'视频广告'},
+                {value:274, name:'联盟广告'},
+                {value:310, name:'邮件营销'},
+                {value:335, name:'直接访问'},
+                {value:400, name:'搜索引擎'}
+            ]
+        }
+    ]
+})
+
+var option = JSON.parse(jsonstr);
+myChart.setOption(option);
+
+
+
+E:\任务项目\PowerBuilder\开发任务\030_Webview2\OEcharts\example.html
+
+$.get(ROOT_PATH + '/data/asset/data/hangzhou-tracks.json', function (data)
+
+
+var option = JSON.parse({series: [{data: [{value:235, name : '\u0293\u01b5\u0663\u0626' },{value:274, name : '\ufffd\u00cb\u0663\u0626' },{value:310, name : '\u04ca\u073e\u04ea\u03fa' },{value:335, name : '\u05b1\u0753\u05c3\u038a' },{value:235, name : '\u02d1\u02f7\u04bd\u01e6' }],name: "\u05c3\u038a\ufffd\u0534",radius: "55%",type: "pie"}]}
+);myChart.setOption(option);

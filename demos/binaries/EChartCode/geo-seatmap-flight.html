@@ -1,0 +1,127 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=geo-seatmap-flight
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    var ROOT_PATH = 'https://echarts.apache.org/examples';
+    var option;
+
+    $.get(ROOT_PATH + '/data/asset/geo/flight-seats.svg', function (svg) {
+  echarts.registerMap('flight-seats', { svg: svg });
+  const takenSeatNames = ['26E', '26D', '26C', '25D', '23C', '21A', '20F'];
+  option = {
+    tooltip: {},
+    geo: {
+      map: 'flight-seats',
+      roam: true,
+      selectedMode: 'multiple',
+      layoutCenter: ['50%', '50%'],
+      layoutSize: '95%',
+      tooltip: {
+        show: true
+      },
+      itemStyle: {
+        color: '#fff'
+      },
+      emphasis: {
+        itemStyle: {
+          color: undefined,
+          borderColor: 'green',
+          borderWidth: 2
+        },
+        label: {
+          show: false
+        }
+      },
+      select: {
+        itemStyle: {
+          color: 'green'
+        },
+        label: {
+          show: false,
+          textBorderColor: '#fff',
+          textBorderWidth: 2
+        }
+      },
+      regions: makeTakenRegions(takenSeatNames)
+    }
+  };
+  function makeTakenRegions(takenSeatNames) {
+    var regions = [];
+    for (var i = 0; i < takenSeatNames.length; i++) {
+      regions.push({
+        name: takenSeatNames[i],
+        silent: true,
+        itemStyle: {
+          color: '#bf0e08'
+        },
+        emphasis: {
+          itemStyle: {
+            borderColor: '#aaa',
+            borderWidth: 1
+          }
+        },
+        select: {
+          itemStyle: {
+            color: '#bf0e08'
+          }
+        }
+      });
+    }
+    return regions;
+  }
+  myChart.setOption(option);
+  // Get selected seats.
+  myChart.on('geoselectchanged', function (params) {
+    const selectedNames = params.allSelected[0].name.slice();
+    // Remove taken seats.
+    for (var i = selectedNames.length - 1; i >= 0; i--) {
+      if (takenSeatNames.indexOf(selectedNames[i]) >= 0) {
+        selectedNames.splice(i, 1);
+      }
+    }
+    console.log('selected', selectedNames);
+  });
+});
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
