@@ -1,0 +1,27 @@
+IIChart Commercial Distribution License
+
+Copyright (c) Xuwei Intelligent Technology.
+All rights reserved.
+
+1. Grant of Use
+This software package ("IIChart") is proprietary software.
+You are permitted to use, integrate, and commercially distribute applications that include IIChart.
+
+2. Watermark Policy
+The default/free mode of IIChart displays a company watermark in chart rendering output.
+This watermark behavior is by design and is part of the default license grant.
+
+3. Subscription License for Watermark Removal
+To remove the watermark, you must obtain a valid paid subscription license file from the copyright owner.
+Use without a valid subscription license file does not grant permission to remove or bypass watermark behavior.
+
+4. Restrictions
+You may not reverse engineer, decompile, modify, sublicense, resell, or redistribute IIChart as a standalone SDK/package without prior written permission.
+
+5. Disclaimer
+IIChart is provided "as is", without warranties of any kind, express or implied, including but not limited to merchantability or fitness for a particular purpose.
+In no event shall the copyright owner be liable for any claim, damages, or other liability.
+
+6. Contact
+For subscription licensing and watermark removal authorization, contact:
+yangpenghui@xuweizhineng.com
